@@ -12,6 +12,8 @@ error = log/$(cluster).$(process).err
 log = log/$(cluster).$(process).log
 
 #requirements = ( Machine == "MY-FAVORITE-MACHINE.ucla.edu" )
+requirements = (Arch == "X86_64" && OpSys == "LINUX"
+
 #request_cpus = 1
 #request_gpus = 1
 request_memory = 24GB
