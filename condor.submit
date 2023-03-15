@@ -14,10 +14,10 @@ log = log/$(cluster).$(process).log
 #requirements = ( Machine == "MY-FAVORITE-MACHINE.ucla.edu" )
 #request_cpus = 1
 #request_gpus = 1
-#request_memory = 12GB
+request_memory = 24GB
 #request_disk = 500MB
 
-FirstMemory = 1024
+FirstMemory = 24576
 SecondMemory = 2048
 
 periodic_release = (JobStatus ==  5) && (HoldReasonCode == 34) && (NumJobStarts < 5)

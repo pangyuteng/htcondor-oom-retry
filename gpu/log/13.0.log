@@ -1,0 +1,31 @@
+000 (013.000.000) 2023-03-15 10:51:09 Job submitted from host: <10.9.146.12:9618?addrs=10.9.146.12-9618&alias=REDLRADADM11249.ad.medctr.ucla.edu&noUDP&sock=schedd_2886_2269>
+...
+040 (013.000.000) 2023-03-15 10:51:46 Started transferring input files
+	Transferring to host: <10.9.146.12:9618?addrs=10.9.146.12-9618&alias=REDLRADADM11249.ad.medctr.ucla.edu&noUDP&sock=slot1_1_2929_7ed0_518>
+...
+040 (013.000.000) 2023-03-15 10:51:46 Finished transferring input files
+...
+001 (013.000.000) 2023-03-15 10:51:47 Job executing on host: <10.9.146.12:9618?addrs=10.9.146.12-9618&alias=REDLRADADM11249.ad.medctr.ucla.edu&noUDP&sock=startd_2886_2269>
+...
+040 (013.000.000) 2023-03-15 10:51:49 Started transferring output files
+...
+040 (013.000.000) 2023-03-15 10:51:49 Finished transferring output files
+...
+005 (013.000.000) 2023-03-15 10:51:50 Job terminated.
+	(1) Normal termination (return value 127)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	56  -  Run Bytes Sent By Job
+	24  -  Run Bytes Received By Job
+	56  -  Total Bytes Sent By Job
+	24  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       19   512000    652819 
+	   Gpus (Average)       :                 1         1 "GPU-13c10646"
+	   Memory (MB)          :             12288     12288 
+
+	Job terminated of its own accord at 2023-03-15T17:51:49Z with exit-code 127.
+...
